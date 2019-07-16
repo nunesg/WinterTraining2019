@@ -24,7 +24,7 @@ void build(int idx, int l, int r){
 	 */
 	
 	build(nxt, l, mid);//filho da esquerda
-	build(nxt+1, mid+1, r);//filho da esquerda
+	build(nxt+1, mid+1, r);//filho da direita
 	
 	st[idx] = min(st[nxt], st[nxt+1]);//calcula valor do nó atual
 }
