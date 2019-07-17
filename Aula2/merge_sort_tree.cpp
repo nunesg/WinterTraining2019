@@ -1,3 +1,7 @@
+// input de teste:
+// 13
+// 1 3 2 4 5 1 3 4 2 5 6 3 1
+
 #include <bits/stdc++.h>
 
 using namespace std;
